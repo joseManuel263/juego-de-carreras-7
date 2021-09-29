@@ -5,6 +5,6 @@ class GameOver {
 //{}
     display(){
         this.mensaje.html("Lugar: "+player.rank);
-        this.mensaje.position(width/2.3,height-200);
+        this.mensaje.position(width/2.3,height/3-200);
     }
 }
